@@ -9,4 +9,4 @@ all: password-generator
 	${CC} ${WFLAGS} ${CFLAGS} -o $@ $^ ${LFLAGS}
 
 clean:
-	rm correcthorsebatterystaple
+	-rm password-generator
